@@ -1,0 +1,24 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - LoginFramework (0.1.0):
+    - Ruler
+  - Ruler (0.6)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LoginFramework (from `../`)
+
+EXTERNAL SOURCES:
+  LoginFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  LoginFramework: 81e1eaac3b1d4d87a19379395d455851a2d3e0e9
+  Ruler: b36ec3bbc5fc6c3b7f629a6052cc1c17ada4b280
+
+COCOAPODS: 0.39.0

@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import LoginFramework
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customTextfield: CustomTextField! {
+        didSet {
+            customTextfield.textColor = UIColor.blackColor()
+            customTextfield.font = UIFont.systemFontOfSize(15)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
